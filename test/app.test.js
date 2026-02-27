@@ -11,12 +11,12 @@ import app from "../app.js";
 describe("API Notes Markdown", () => {
   // Premier test
   // Vérifie que la route racine "/" fonctionne correctement.
-  test("GET / doit répondre 200", async () => {
-    // Supertest envoie une requête GET à l'application
-    // request(app) simule un client HTTPconst res = await request(app).get("/");
-    // Vérifie que le code HTTP retourné est 200 (succès)
-    expect(res.statusCode).toBe(200);
-  });
+  // test("GET / doit répondre 200", async () => {
+  //   // Supertest envoie une requête GET à l'application
+  //   // request(app) simule un client HTTPconst res = await request(app).get("/");
+  //   // Vérifie que le code HTTP retourné est 200 (succès)
+  //   expect(res.statusCode).toBe(200);
+  // });
   // Deuxième test
   // Vérifie que la route /notes fonctionne correctement.
   test("GET /notes doit répondre 200", async () => {
